@@ -1,0 +1,328 @@
+//圆角
+.border-radius (@radius) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+//阴影
+.box-shadow (@x, @y, @blur, @color) {
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
+
+//填充边距
+.padding(@t, @r, @b ,@l) {
+  padding: @arguments;
+}
+
+.margin(@t, @r, @b ,@l) {
+  margin: @arguments;
+}
+
+//居中
+.text_center() {
+  text-align: center;
+}
+
+//公共
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+}
+
+/*section1*/
+.section1 {
+  height: 990px;
+  background-image: url("../img/banner_bg.png");
+  .padding(200px, 0, 0, 0);
+  .h1 {
+    font-size: 62px;
+    color: #ffffff;
+    .text_center;
+    .margin(0, 0, 70px, 0)
+  }
+  & > .txt {
+    width: 766px;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.7);
+    .margin(0, auto, 90px, auto);
+  }
+  .form {
+    width: 970px;
+    height: 250px;
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    .margin(0, auto, 0, auto);
+    .border-radius (2px);
+    .padding(60px, 100px, 0, 100px);
+    .tit {
+      .text_center;
+      font-size: 16px;
+      color: #ffffff;
+    }
+    .txt {
+      .text_center;
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: rgba(255, 255, 255, 0.3);
+      .margin(15px, 0, 35px, 0);
+    }
+    .form_group {
+      .input {
+        width: 292px;
+        height: 50px;
+        border: solid 1px rgba(255, 255, 255, 0.2);
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.3);
+        .border-radius(2px);
+        .padding(0, 0, 0, 1em);
+        transition: border 0.3s ease-in-out;
+        -moz-transition: border 0.3s ease-in-out;
+        -webkit-transition: border 0.3s ease-in-out;
+        &:focus {
+          border: solid 1px rgba(255, 255, 255, 1);
+          color: #ffffff;
+        }
+        &:nth-of-type(2) {
+          .margin(0, 20px, 0, 20px)
+        }
+      }
+      .submit {
+        width: 125px;
+        height: 50px;
+        background-color: #ffffff;
+        .border-radius(2px);
+        font-size: 12px;
+        letter-spacing: 1px;
+        color: #141414;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+/*section2*/
+.section2 {
+  height: 710px;
+  background-color: #ffffff;
+  .group {
+    width: 1050px;
+    .margin(0, auto, 0, auto);
+    .padding(60px, 0, 0, 0);
+    .sm_tit {
+      .text_center;
+      font-size: 14px;
+      line-height: 96px;
+      letter-spacing: 2px;
+      color: #141414;
+    }
+    .tit {
+      width: 780px;
+      font-size: 42px;
+      line-height: 52px;
+      color: #141414;
+      .text_center;
+      .margin(0, auto, 70px, auto)
+    }
+    .box {
+      float: left;
+      width: 450px;
+      .margin(0, 0, 70px, 0);
+      &:nth-of-type(2n+1) {
+        .margin(0, 150px, 0, 0)
+      }
+      .img_box {
+        width: 50px;
+        display: inline-block;
+        vertical-align: top;
+        .margin(0, 15px, 0, 0)
+      }
+      .txt_box {
+        width: 360px;
+        display: inline-block;
+        vertical-align: top;
+        h2 {
+          font-size: 20px;
+          font-weight: 600;
+          color: #141414;
+          .margin(0, 0, 10px, 0)
+        }
+        p {
+          font-size: 16px;
+          line-height: 26px;
+          color: rgba(20, 20, 20, 0.7);
+        }
+      }
+    }
+  }
+}
+
+/*section3*/
+.section3 {
+  height: 800px;
+  background-image: url("../img/chine_bg.png");
+  .padding(190px, 0, 0, 300px);
+  .box {
+    width: 550px;
+    h2 {
+      font-size: 42px;
+      width: 400px;
+      line-height: 52px;
+      color: #ffffff;
+      .margin(0, 0, 20px, 0)
+    }
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      color: rgba(255, 255, 255, 0.7);
+      .margin(0, 0, 40px, 0)
+    }
+    a {
+      display: inline-block;
+      width: 235px;
+      height: 60px;
+      border: solid 1px rgba(255, 255, 255, 0.3);
+      font-size: 12px;
+      letter-spacing: 1px;
+      color: #ffffff;
+      .border-radius(2px);
+      line-height: 58px;
+      .text_center;
+      .margin(0, 50px, 0, 0);
+      &:last-of-type {
+        .margin(0, 0, 0, 0)
+      }
+      &:hover {
+        background: #ffffff;
+        color: #141414;
+      }
+    }
+  }
+}
+
+/*section4*/
+.section4 {
+  height: 580px;
+  .text_center;
+  .padding(100px, 0, 0, 0);
+  h2 {
+    font-size: 42px;
+    line-height: 52px;
+    color: #141414;
+    .padding(0, 0, 70px, 0)
+  }
+  .box_group {
+    .text_center;
+    .box {
+      display: inline-block;
+      width: 260px;
+      .margin(0, 40px, 0, 40px);
+      img {
+        .margin(0, 0, 20px, 0)
+      }
+      p {
+        text-align: justify;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(20, 20, 20, 0.7);
+      }
+    }
+  }
+}
+
+/*section5*/
+.section5 {
+  height: 1000px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  .padding(115px, 0, 0, 0);
+  .box {
+    width: 1100px;
+    .margin(0, auto, 80px, auto);
+    .txt_box {
+      width: 335px;
+      .padding(70px, 0, 0, 0);
+      h2 {
+        font-size: 20px;
+        line-height: 30px;
+        color: #141414;
+        .margin(0, 0, 20px, 0)
+      }
+      p {
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(20, 20, 20, 0.7);
+        text-align: justify;
+      }
+    }
+  }
+}
+
+/*section6*/
+.section6 {
+  height: 1084px;
+  .text_center;
+  .padding(80px, 0, 0, 0);
+  & > h2 {
+    font-size: 42px;
+    line-height: 52px;
+    color: #141414;
+  }
+  & > p {
+    width: 695px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(20, 20, 20, 0.7);
+    .margin(30px, auto, 50px, auto)
+  }
+  .group {
+    width: 1000px;
+    .margin(0, auto, 0, auto);
+    .box {
+      width: 465px;
+      height: 340px;
+      display: inline-block;
+      vertical-align: middle;
+      .margin(15px, 15px, 15px, 15px);
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      &:hover {
+        .bg_box {
+          bottom: 0;
+        }
+      }
+      .bg_box {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(20, 20, 20, 0.65);
+        bottom: -100%;
+        z-index: 999;
+        cursor: pointer;
+        .padding(100px, 0, 0, 0);
+        transition: all 0.3s ease-in-out;
+        p {
+          font-size: 20px;
+          color: #ffffff;
+        }
+        span {
+          font-size: 12px;
+          line-height: 60px;
+          letter-spacing: 1px;
+          color: rgba(255, 255, 255, 0.4);
+        }
+        a {
+          .margin(0, 10px, 0, 10px)
+        }
+      }
+    }
+  }
+
+}
