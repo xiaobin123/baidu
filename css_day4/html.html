@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3D翻转</title>
+    <style>
+        .box {
+            width: 250px;
+            height: 250px;
+            position: relative;
+            margin: 40px;
+        }
+
+        .z {
+            position: absolute;
+            top: 0;
+            transform: rotateY(0deg);
+            z-index: 1;
+            transition: all 1s ease;
+
+        }
+
+        .f {
+            position: absolute;
+            top: 0;
+            transform: rotateY(180deg);
+            transition: all 1s ease;
+            z-index: 0;
+        }
+
+        .box:hover .z {
+            transform: rotateY(180deg);
+            z-index: 0;
+        }
+
+        .box:hover .f {
+            transform: rotateY(0deg);
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <img class="z" src="z.jpg" height="350" width="250"/>
+    <img class="f" src="f.jpg" height="350" width="250"/>
+
+</div>
+</body>
+</html>
