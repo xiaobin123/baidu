@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48e5ed73-c3c6-4ee4-90f0-37033539ee8f" name="默认" comment="">
+    <list default="true" id="48e5ed73-c3c6-4ee4-90f0-37033539ee8f" name="默认" comment="第9——11">
+      <change afterPath="$PROJECT_DIR$/css_day1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0_day5·6/index1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0_day5·6/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0_day5·6/index3.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,38 +19,12 @@
     <favorites_list name="baidu" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/0_day9_11/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1043">
-              <caret line="176" column="12" selection-start-line="176" selection-start-column="12" selection-end-line="176" selection-end-column="12" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#section#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/0_day9_11/css/style.less">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css_day1/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="718">
-              <caret line="331" column="1" lean-forward="true" selection-start-line="331" selection-start-column="1" selection-end-line="331" selection-end-column="1" />
-              <folding>
-                <element signature="e#520#2095#0" />
-                <element signature="e#2120#3185#0" />
-                <element signature="e#3210#3214#0" />
-                <element signature="e#4052#4058#0" />
-                <element signature="e#4552#4558#0" />
-                <element signature="e#5074#5080#0" />
-              </folding>
+              <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -62,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="LESS" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -83,6 +55,8 @@
         <option value="$PROJECT_DIR$/0_day5·6/index1.html" />
         <option value="$PROJECT_DIR$/0_day9_11/index.html" />
         <option value="$PROJECT_DIR$/0_day9_11/css/style.less" />
+        <option value="$PROJECT_DIR$/0_day9_11/css/reset.css" />
+        <option value="$PROJECT_DIR$/css_day1/index.html" />
       </list>
     </option>
   </component>
@@ -99,9 +73,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="294" />
-    <option name="y" value="63" />
-    <option name="width" value="1400" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="673" />
     <option name="height" value="909" />
   </component>
   <component name="ProjectView">
@@ -109,35 +83,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="baidu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baidu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baidu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baidu" type="462c0819:PsiDirectoryNode" />
-              <item name="0_day9_11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baidu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baidu" type="462c0819:PsiDirectoryNode" />
-              <item name="0_day9_11" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="baidu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="baidu" type="462c0819:PsiDirectoryNode" />
-              <item name="0_day9_11" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="style.less" type="620a8d5e:NestingTreeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -149,10 +94,27 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="baidu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baidu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="baidu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="baidu" type="462c0819:PsiDirectoryNode" />
+              <item name="css_day1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Administrator/Desktop/webstorm project/baidu/0_day9_11/index.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/nodejs" />
     <property name="node.js.detected.package.prettier" value="true" />
@@ -197,7 +159,8 @@
       <workItem from="1524879027887" duration="12069000" />
       <workItem from="1524902366276" duration="110000" />
       <workItem from="1525312033826" duration="6473000" />
-      <workItem from="1525328927322" duration="4379000" />
+      <workItem from="1525328927322" duration="5233000" />
+      <workItem from="1525500144978" duration="2623000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1524560740112</created>
@@ -227,11 +190,32 @@
       <option name="project" value="LOCAL" />
       <updated>1524879096680</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第9——11">
+      <created>1525333354755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525333354755</updated>
+    </task>
+    <task id="LOCAL-00006" summary="第9——11">
+      <created>1525333415796</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525333415796</updated>
+    </task>
+    <task id="LOCAL-00007" summary="第9——11">
+      <created>1525333558004</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1525333558004</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25921000" />
+    <option name="totallyTimeSpent" value="29398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -263,24 +247,25 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4935065" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" sideWeight="0.5064935" side_tool="true" weight="0.24973656" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.27559912" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.27559912" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info id="Favorites" order="2" sideWeight="0.5064935" side_tool="true" weight="0.24973656" />
     </layout-to-restore>
   </component>
@@ -297,7 +282,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="new" />
     <MESSAGE value="第二天" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二天" />
+    <MESSAGE value="第9——11" />
+    <option name="LAST_COMMIT_MESSAGE" value="第9——11" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -323,14 +309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4175">
           <caret line="167" selection-start-line="167" selection-end-line="167" />
-          <folding>
-            <element signature="e#520#2095#0" />
-            <element signature="e#2120#3185#0" />
-            <element signature="e#3210#3214#0" />
-            <element signature="e#4052#4058#0" />
-            <element signature="e#4552#4558#0" />
-            <element signature="e#5074#5080#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -377,17 +355,30 @@
     <entry file="file://$PROJECT_DIR$/0_day5·6/css/style.css" />
     <entry file="file://$PROJECT_DIR$/0_day5·6/css/style.less" />
     <entry file="file://$PROJECT_DIR$/0_day5·6/index1.html" />
-    <entry file="file://$PROJECT_DIR$/0_day5_6/css/style.less">
+    <entry file="file://$PROJECT_DIR$/0_day5_6/css/style.less" />
+    <entry file="file://$PROJECT_DIR$/0_day9_11/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="25" />
+        <state relative-caret-position="25">
+          <caret line="174" column="16" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_day9_11/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7382" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_day9_11/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="327" column="1" selection-start-line="327" selection-start-column="1" selection-end-line="327" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/0_day9_11/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1043">
-          <caret line="176" column="12" selection-start-line="176" selection-start-column="12" selection-end-line="176" selection-end-column="12" />
+        <state relative-caret-position="818">
+          <caret line="188" column="8" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -400,23 +391,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0_day9_11/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-732" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0_day9_11/css/style.less">
+    <entry file="file://$PROJECT_DIR$/css_day1/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="718">
-          <caret line="331" column="1" lean-forward="true" selection-start-line="331" selection-start-column="1" selection-end-line="331" selection-end-column="1" />
-          <folding>
-            <element signature="e#520#2095#0" />
-            <element signature="e#2120#3185#0" />
-            <element signature="e#3210#3214#0" />
-            <element signature="e#4052#4058#0" />
-            <element signature="e#4552#4558#0" />
-            <element signature="e#5074#5080#0" />
-          </folding>
+          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
         </state>
       </provider>
     </entry>
